@@ -1,0 +1,35 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "HomeTabController"
+        ],
+        "name": "GreenDot",
+        "views": [
+            "MainView",
+            "HomeCard1",
+            "HomeCard2"
+        ]
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "Ext.Viewport",
+            "reference": {
+                "name": "viewport",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoMaximize": true,
+                "container|animation": null
+            },
+            "designerId": "4f075300-49ef-4619-a7a9-7d681f652bf4"
+        }
+    ]
+}

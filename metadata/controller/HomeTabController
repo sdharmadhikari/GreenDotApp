@@ -1,0 +1,107 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "HomeTabController"
+    },
+    "designerId": "3f6c1b19-a4f8-4eef-ad4a-5e549a04b6fb",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "homeCard1",
+                "selector": "panel#homecard1"
+            },
+            "designerId": "88eb0e8d-a4fb-4474-8444-2ea200b3efd6"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "homeCard2",
+                "selector": "panel#homecard2"
+            },
+            "designerId": "4619b563-2e52-422e-82c3-452df3645172"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "image#openingscreen",
+                "designer|targetType": "Ext.Img",
+                "fn": "onOpeningScreenImageTap",
+                "implHandler": [
+                    "// Get references",
+                    "var homeTab = this.getHomeTab();",
+                    "var homeCard2 = this.getHomeCard2();",
+                    "",
+                    "// Do Business logic here if any",
+                    "",
+                    "// Switch to next screen.",
+                    "",
+                    "homeTab.setActiveItem(homeCard2);",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "designerId": "a2500cfd-5aba-4446-af39-dd1da526ae4d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "image#chargingscreen",
+                "designer|targetType": "Ext.Img",
+                "fn": "onChargingScreenImageTap",
+                "implHandler": [
+                    "// Get references",
+                    "var homeTab = this.getHomeTab();",
+                    "var homeCard1 = this.getHomeCard1();",
+                    "",
+                    "// Do Business logic here if any",
+                    "",
+                    "// Switch to next screen.",
+                    "",
+                    "homeTab.setActiveItem(homeCard1, {type: 'slide', direction: 'right'});",
+                    ""
+                ],
+                "name": "tap"
+            },
+            "designerId": "833610f3-8f18-4491-b47e-ceabfa08dc63"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "homeTab",
+                "selector": "container#hometab"
+            },
+            "designerId": "3c498889-dfc4-47b9-b07e-13c4c4650f4e"
+        }
+    ]
+}

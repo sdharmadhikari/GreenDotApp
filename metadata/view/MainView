@@ -1,0 +1,96 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MainView",
+        "itemId": "mainView"
+    },
+    "designerId": "6ff421e4-b183-4a75-a035-b579678217fa",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|animation": "slide",
+                "designer|displayName": "HomeTab",
+                "iconCls": "home",
+                "itemId": "hometab",
+                "layout": "card",
+                "title": "Home"
+            },
+            "designerId": "11683103-9560-4063-a3c4-5e9b28a5f36c",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "157f4762-31c7-4089-8eb5-abc3ce1711c2",
+                    "masterInstanceId": "559e6796-26ab-41f3-a567-a26aee1441a3"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "ce713ae2-0764-4ba4-9033-5a4732aab88c",
+                    "masterInstanceId": "b58b45c9-cacc-4809-b407-3eacfc16a227"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "HelpTab",
+                "html": "Satyajit, Please send me some content for this \"Info\" section.",
+                "iconCls": "info",
+                "itemId": "helpTab",
+                "title": "Help"
+            },
+            "designerId": "7148fb0a-516c-4a93-9c4d-c35ecaeecb34"
+        },
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom"
+            },
+            "designerId": "60d00893-8e26-40eb-82f0-b6d6850bcb39"
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "GreenDot"
+            },
+            "designerId": "38251c6a-983f-4eb9-bc83-7d01e3d69c1c"
+        }
+    ]
+}

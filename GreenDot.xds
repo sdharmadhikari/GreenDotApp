@@ -1,0 +1,55 @@
+{
+    "name": "GreenDot",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "2.3.1.410"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone 5",
+                "builtIn": true,
+                "height": 568,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        }
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "6ff421e4-b183-4a75-a035-b579678217fa",
+            "559e6796-26ab-41f3-a567-a26aee1441a3",
+            "b58b45c9-cacc-4809-b407-3eacfc16a227"
+        ],
+        "store": [],
+        "controller": [
+            "3f6c1b19-a4f8-4eef-ad4a-5e549a04b6fb"
+        ],
+        "model": [],
+        "resource": [
+            "70760bbc-9363-4de6-bb8d-935eb11d0b3e"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

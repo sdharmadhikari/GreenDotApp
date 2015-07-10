@@ -1,0 +1,31 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "homecard2",
+        "designer|userClassName": "HomeCard2",
+        "itemId": "homecard2",
+        "layout": "hbox"
+    },
+    "designerId": "b58b45c9-cacc-4809-b407-3eacfc16a227",
+    "cn": [
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "chargingscreen",
+                "src": "resources/myresources/images/ChargingScreen.png",
+                "width": 316
+            },
+            "designerId": "4f2b2b94-3c05-43c8-a803-abb9a1891b43"
+        }
+    ]
+}
